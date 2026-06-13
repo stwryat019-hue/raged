@@ -1,0 +1,11 @@
+appId: "com.raghdah.engineer-projects"
+productName: "نظام إدارة أعمال المهندسة رغد الحديثي"
+directories:
+  output: "dist"
+win:
+  icon: "build/icon.ico"
+  target:
+    - nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
